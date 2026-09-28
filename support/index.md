@@ -4,7 +4,7 @@ City Chime is an alarm clock that wakes you with a spoken briefing of the weathe
 
 ## Contact us
 
-- **In the app:** open **Settings** and tap **SEND FEEDBACK**. Your app version and device details are added to the email automatically, which helps us fix problems faster.
+- **In the app:** open **Setup** and tap **SEND FEEDBACK**. Your app version and device details are added to the email automatically, which helps us fix problems faster.
 - **By email:** [rushuicode@gmail.com](mailto:rushuicode@gmail.com)
 
 We usually reply within a few days.
@@ -17,11 +17,23 @@ We usually reply within a few days.
 - Check that your device volume is up and that no Do Not Disturb or Focus mode is silencing alarms.
 - **Android:** don't force-stop City Chime, and if your phone has aggressive battery saving, allow City Chime to run in the background.
 
-If it still doesn't ring, tap **SEND FEEDBACK** in Settings and tell us what time it was set for and what happened.
+If it still doesn't ring, tap **SEND FEEDBACK** in Setup and tell us what time it was set for and what happened.
 
 ### The briefing doesn't include local weather or news
 
 The briefing uses your **approximate** location. If location access is turned off, the alarm still rings but the briefing leaves out local weather and news. You can turn location access on for City Chime in your device settings at any time.
+
+### Using City Chime as a bedside clock
+
+City Chime is made to stay on your nightstand all night. Open City Chime to the clock, plug in your iPhone, and leave City Chime open. Don't press the side button. While City Chime is open, it keeps your screen on, so the clock stays visible all night.
+
+### I see Apple's clock instead of City Chime
+
+That's **StandBy**, an iPhone feature. It appears when your iPhone is charging, lying on its side, and locked. Pressing the side button locks your iPhone, so StandBy takes over the screen. To get back to City Chime, unlock your iPhone and open City Chime.
+
+Your alarm still rings in StandBy as long as **NATIVE ALARM SUPPORT** is on. It's on by default; you can check it in **Setup**. Your briefing plays when you open City Chime.
+
+If you never want StandBy to replace City Chime, open the **Settings** app, tap **StandBy**, and turn **StandBy** off.
 
 ### Tips and refunds
 
