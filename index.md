@@ -1,6 +1,6 @@
 # Privacy Policy for City Chime
 
-**Last Updated:** September 27, 2026
+**Last Updated:** November 2, 2026
 
 ## Introduction
 
@@ -16,7 +16,7 @@ City Chime ("we," "us," or "our") is an alarm clock and bedside clock app for iO
 - **Why:** To give you local weather and pick local and national news for your spoken wake-up briefing.
 - **How it is used:**
   - Your phone turns the location into a city and country using its built-in geocoding service (Apple on iOS, Google on Android).
-  - When a briefing is prepared, the approximate coordinates, and the city and country if available, are sent to our server. The server uses the coordinates to get the forecast from Open-Meteo, and the city and country to find relevant news.
+  - When a briefing is prepared, the approximate coordinates, and the city and country if available, are sent to our server. The server uses the coordinates to get the forecast from Apple Weather (WeatherKit), and the city and country to find relevant news.
   - Your exact coordinates are not stored on our server.
   - Your **country code** is stored with a random install ID so national news can be prepared before your alarm (see "Alarm schedule" below).
   - The spoken weather clip is cached under a rounded area of roughly 10 km (a city area), so nearby users can share it. This cache is not linked to you.
@@ -67,7 +67,7 @@ The spoken briefing is written and voiced on our server by AI services:
 
 They receive the weather and news text for your briefing, which may include your city name. They do not receive your identifiers, and they only process it for us.
 
-News headlines are fetched by our server from public sources (for example BBC, The Verge, and Hacker News). For local news, your city and region are sent to **ScrapeCreators**, a search provider, to find local headlines. No other information about you is sent.
+News is gathered by our server from publicly available news feeds and news search, and the briefing is a short summary our server writes from it. No information about you is sent to those news sources. For local news, your city and region are sent to **ScrapeCreators**, a search provider, to find local headlines. No other information about you is sent.
 
 ## Service Providers
 
@@ -76,12 +76,14 @@ We use these providers to run the app. They process data only on our behalf:
 | Provider | Purpose | Privacy policy |
 |---|---|---|
 | Google Firebase / Google Cloud | Our server, analytics, crash reports, notifications, app integrity | https://firebase.google.com/support/privacy |
-| Open-Meteo | Weather forecasts | https://open-meteo.com/en/terms#privacy |
+| Apple Weather (WeatherKit) | Weather forecasts | https://www.apple.com/legal/privacy/ |
 | RevenueCat | Tip purchase management | https://www.revenuecat.com/privacy |
 | Apple / Google | App Store and Google Play payments; on-device geocoding | https://www.apple.com/legal/privacy/ · https://policies.google.com/privacy |
 | Anthropic | Writing the briefing text | https://www.anthropic.com/legal/privacy |
 | ElevenLabs | Briefing voice | https://elevenlabs.io/privacy-policy |
 | ScrapeCreators | Local news search | https://scrapecreators.com/privacy |
+
+Weather data is provided by Apple Weather. Data sources: https://developer.apple.com/weatherkit/data-source-attribution/
 
 We do **not** sell your data or share it with advertisers or data brokers.
 
